@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">AI chatbot and landing page project visual</title>
+  <desc id="desc">An anonymized portfolio card for AI chatbot and landing page development.</desc>
+  <rect width="1200" height="800" fill="#f5f7f6"/>
+  <rect x="72" y="72" width="1056" height="656" rx="28" fill="#ffffff" stroke="#dce2e7" stroke-width="3"/>
+  <rect x="120" y="128" width="380" height="88" rx="16" fill="#0f766e"/>
+  <text x="152" y="183" fill="#ffffff" font-family="Arial, sans-serif" font-size="34" font-weight="700">AI Chatbot</text>
+  <rect x="120" y="260" width="454" height="92" rx="20" fill="#e8f4f2"/>
+  <text x="152" y="316" fill="#0a4f49" font-family="Arial, sans-serif" font-size="28" font-weight="700">FAQ / RAG / LP</text>
+  <rect x="120" y="390" width="320" height="30" rx="15" fill="#c4493d"/>
+  <rect x="120" y="448" width="520" height="24" rx="12" fill="#dce2e7"/>
+  <rect x="120" y="496" width="460" height="24" rx="12" fill="#dce2e7"/>
+  <rect x="120" y="544" width="540" height="24" rx="12" fill="#dce2e7"/>
+  <rect x="720" y="180" width="268" height="420" rx="28" fill="#111827"/>
+  <circle cx="854" cy="252" r="38" fill="#f4c15d"/>
+  <rect x="768" y="328" width="172" height="22" rx="11" fill="#ffffff" opacity=".82"/>
+  <rect x="768" y="380" width="140" height="22" rx="11" fill="#ffffff" opacity=".54"/>
+  <rect x="768" y="432" width="174" height="22" rx="11" fill="#ffffff" opacity=".54"/>
+  <rect x="768" y="506" width="120" height="48" rx="24" fill="#0f766e"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Anonymous marketing and operations proposal visual</title>
+  <desc id="desc">An anonymized portfolio card for marketing and operations support for Company XX.</desc>
+  <rect width="1200" height="800" fill="#17201f"/>
+  <rect x="72" y="72" width="1056" height="656" rx="28" fill="#ffffff"/>
+  <text x="120" y="150" fill="#a86f16" font-family="Arial, sans-serif" font-size="26" font-weight="700">匿名企業 / 匿名プロジェクト</text>
+  <text x="120" y="220" fill="#111827" font-family="Arial, sans-serif" font-size="48" font-weight="800">SNS運用と業務改善の90日プラン</text>
+  <rect x="120" y="286" width="960" height="2" fill="#dce2e7"/>
+  <rect x="120" y="344" width="240" height="260" rx="20" fill="#e8f4f2"/>
+  <rect x="420" y="344" width="240" height="260" rx="20" fill="#fff4e1"/>
+  <rect x="720" y="344" width="240" height="260" rx="20" fill="#f8e9e6"/>
+  <text x="162" y="418" fill="#0a4f49" font-family="Arial, sans-serif" font-size="34" font-weight="700">見える化</text>
+  <text x="462" y="418" fill="#7a4d0f" font-family="Arial, sans-serif" font-size="34" font-weight="700">仕組み化</text>
+  <text x="762" y="418" fill="#9b332b" font-family="Arial, sans-serif" font-size="34" font-weight="700">改善運用</text>
+  <rect x="162" y="472" width="140" height="18" rx="9" fill="#0f766e"/>
+  <rect x="462" y="472" width="140" height="18" rx="9" fill="#a86f16"/>
+  <rect x="762" y="472" width="140" height="18" rx="9" fill="#c4493d"/>
+  <rect x="162" y="520" width="120" height="18" rx="9" fill="#dce2e7"/>
+  <rect x="462" y="520" width="120" height="18" rx="9" fill="#dce2e7"/>
+  <rect x="762" y="520" width="120" height="18" rx="9" fill="#dce2e7"/>
+</svg>

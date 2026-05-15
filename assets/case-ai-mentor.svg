@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Generative AI learning material visual</title>
+  <desc id="desc">An anonymized portfolio card for generative AI learning support materials.</desc>
+  <rect width="1200" height="800" fill="#eef3f5"/>
+  <rect x="80" y="90" width="1040" height="620" rx="30" fill="#ffffff" stroke="#dce2e7" stroke-width="3"/>
+  <text x="130" y="170" fill="#1f5f99" font-family="Arial, sans-serif" font-size="26" font-weight="700">AI Learning Support</text>
+  <text x="130" y="244" fill="#111827" font-family="Arial, sans-serif" font-size="52" font-weight="800">生成AI講座の伴走資料</text>
+  <rect x="130" y="310" width="300" height="240" rx="22" fill="#0f766e"/>
+  <rect x="470" y="310" width="300" height="240" rx="22" fill="#f4c15d"/>
+  <rect x="810" y="310" width="220" height="240" rx="22" fill="#c4493d"/>
+  <text x="172" y="395" fill="#ffffff" font-family="Arial, sans-serif" font-size="34" font-weight="700">初回診断</text>
+  <text x="512" y="395" fill="#111827" font-family="Arial, sans-serif" font-size="34" font-weight="700">成果物化</text>
+  <text x="850" y="395" fill="#ffffff" font-family="Arial, sans-serif" font-size="34" font-weight="700">FAQ化</text>
+  <rect x="130" y="606" width="600" height="24" rx="12" fill="#dce2e7"/>
+  <rect x="130" y="648" width="420" height="24" rx="12" fill="#dce2e7"/>
+</svg>

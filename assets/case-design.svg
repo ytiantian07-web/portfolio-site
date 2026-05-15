@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Canva and document design project visual</title>
+  <desc id="desc">An anonymized portfolio card for Canva, social media banners, and proposal deck design.</desc>
+  <rect width="1200" height="800" fill="#fbfaf7"/>
+  <rect x="84" y="84" width="1032" height="632" rx="28" fill="#ffffff" stroke="#dce2e7" stroke-width="3"/>
+  <text x="132" y="166" fill="#a86f16" font-family="Arial, sans-serif" font-size="26" font-weight="700">Design / Visual Contents</text>
+  <text x="132" y="238" fill="#111827" font-family="Arial, sans-serif" font-size="50" font-weight="800">資料・SNS画像・バナー制作</text>
+  <rect x="132" y="314" width="286" height="286" rx="26" fill="#0f766e"/>
+  <rect x="458" y="314" width="286" height="286" rx="26" fill="#1f5f99"/>
+  <rect x="784" y="314" width="286" height="286" rx="26" fill="#c4493d"/>
+  <text x="196" y="466" fill="#ffffff" font-family="Arial, sans-serif" font-size="42" font-weight="800">Canva</text>
+  <text x="510" y="466" fill="#ffffff" font-family="Arial, sans-serif" font-size="42" font-weight="800">Slides</text>
+  <text x="846" y="466" fill="#ffffff" font-family="Arial, sans-serif" font-size="42" font-weight="800">SNS</text>
+  <rect x="132" y="644" width="500" height="24" rx="12" fill="#dce2e7"/>
+</svg>
