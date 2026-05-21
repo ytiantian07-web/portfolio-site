@@ -270,6 +270,7 @@ a {
 .profile-section,
 .proof-grid,
 .service-grid,
+.chatbot-showcase,
 .case-grid,
 .process-list,
 .faq-list {
@@ -370,6 +371,116 @@ a {
   margin: 0;
   padding-left: 18px;
   font-size: 14px;
+}
+
+.chatbot-showcase {
+  margin-bottom: 42px;
+}
+
+.chatbot-intro {
+  max-width: 860px;
+  margin-bottom: 18px;
+}
+
+.chatbot-intro h3 {
+  margin: 0;
+  font-size: 26px;
+  line-height: 1.35;
+}
+
+.chatbot-intro p:not(.eyebrow),
+.chatbot-cta {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.chatbot-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.chatbot-card {
+  display: flex;
+  flex-direction: column;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  box-shadow: 0 12px 32px rgba(17, 24, 39, 0.08);
+}
+
+.chatbot-card h4 {
+  min-height: 66px;
+  margin: 8px 0 16px;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.chatbot-meta {
+  display: grid;
+  gap: 8px;
+  margin: 0 0 18px;
+  padding: 14px;
+  border-radius: 8px;
+  background: var(--soft);
+}
+
+.chatbot-meta div {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+  gap: 10px;
+}
+
+.chatbot-meta dt,
+.chatbot-section-label {
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.chatbot-meta dd {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.chatbot-section-label {
+  margin: 16px 0 6px;
+}
+
+.chatbot-card ul {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.demo-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  min-height: 42px;
+  margin-top: auto;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: var(--teal);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.demo-link:hover {
+  background: var(--teal-dark);
+}
+
+.chatbot-cta {
+  max-width: 760px;
+  margin-top: 18px;
 }
 
 .case-grid {
@@ -559,6 +670,7 @@ a {
 }
 
 @media (max-width: 1040px) {
+  .chatbot-grid,
   .service-grid,
   .process-list,
   .faq-list {
@@ -625,6 +737,7 @@ a {
 
   .hero-facts,
   .proof-grid,
+  .chatbot-grid,
   .service-grid,
   .process-list,
   .faq-list,
@@ -648,6 +761,7 @@ a {
   }
 
   .service-card h3,
+  .chatbot-card h4,
   .process-list h3 {
     min-height: 0;
   }
