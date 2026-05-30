@@ -149,6 +149,52 @@ a {
   margin: 0 auto;
 }
 
+.hero-profile {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  gap: 14px;
+  margin-bottom: 22px;
+  padding: 10px 16px 10px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 999px;
+  background: rgba(8, 16, 18, 0.5);
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(14px);
+}
+
+.hero-profile img {
+  width: 92px;
+  height: 92px;
+  flex: 0 0 auto;
+  border: 2px solid rgba(255, 255, 255, 0.64);
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 28%;
+}
+
+.hero-profile-copy {
+  min-width: 0;
+}
+
+.hero-profile-name,
+.hero-profile-role {
+  display: block;
+}
+
+.hero-profile-name {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.hero-profile-role {
+  margin-top: 4px;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
 .eyebrow {
   margin: 0 0 12px;
   color: var(--gold);
@@ -715,6 +761,26 @@ a {
   .hero {
     min-height: 72svh;
     padding: 72px 20px 56px;
+  }
+
+  .hero-profile {
+    gap: 12px;
+    margin-bottom: 18px;
+    padding: 8px 12px 8px 8px;
+    border-radius: 20px;
+  }
+
+  .hero-profile img {
+    width: 72px;
+    height: 72px;
+  }
+
+  .hero-profile-name {
+    font-size: 16px;
+  }
+
+  .hero-profile-role {
+    font-size: 12px;
   }
 
   .hero h1 {
