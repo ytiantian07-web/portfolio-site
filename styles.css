@@ -529,6 +529,10 @@ a {
   margin-top: 18px;
 }
 
+.case-actions {
+  margin-top: 22px;
+}
+
 .case-grid {
   display: grid;
   gap: 24px;
@@ -586,6 +590,192 @@ a {
 .case-detail dd {
   margin: 0;
   font-size: 14px;
+}
+
+.case-hero {
+  padding: 84px 32px 70px;
+  background: var(--soft);
+}
+
+.case-hero-inner,
+.case-page-grid,
+.case-sample {
+  width: min(100%, 1120px);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.case-hero-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(320px, 1.1fr);
+  gap: 36px;
+  align-items: center;
+}
+
+.case-hero-copy h1 {
+  margin: 0;
+  font-size: 42px;
+  line-height: 1.24;
+}
+
+.case-hero-copy p:not(.eyebrow) {
+  margin: 18px 0 0;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.back-link {
+  display: inline-flex;
+  margin-bottom: 18px;
+  color: var(--teal-dark);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.case-hero-media {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  box-shadow: var(--shadow);
+}
+
+.case-page-section {
+  padding: 78px 32px;
+}
+
+.case-page-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(280px, 0.75fr);
+  gap: 32px;
+  align-items: start;
+}
+
+.case-page-main h2,
+.case-sample h2,
+.case-page-aside h2 {
+  margin: 0;
+  font-size: 30px;
+  line-height: 1.35;
+}
+
+.case-page-main p,
+.sample-note,
+.case-page-aside p {
+  margin: 16px 0 0;
+  color: var(--muted);
+}
+
+.case-page-aside {
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+}
+
+.case-page-aside dl {
+  display: grid;
+  gap: 18px;
+  margin: 0;
+}
+
+.case-page-aside dt {
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.case-page-aside dd {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.sample-block {
+  margin-top: 28px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+}
+
+.sample-block h3 {
+  margin: 0 0 16px;
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+.deliverable-grid,
+.question-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.deliverable-grid article,
+.question-list article {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfc;
+}
+
+.deliverable-grid span {
+  color: var(--coral);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.deliverable-grid h4,
+.question-list h3 {
+  margin: 6px 0 8px;
+  font-size: 17px;
+  line-height: 1.45;
+}
+
+.deliverable-grid p,
+.question-list p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  min-width: 760px;
+  border-collapse: collapse;
+  background: var(--paper);
+}
+
+th,
+td {
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: #f5f7f6;
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+td {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+tr:last-child td {
+  border-bottom: 0;
 }
 
 .process-list {
@@ -727,6 +917,11 @@ a {
     grid-template-columns: 1fr;
   }
 
+  .case-hero-inner,
+  .case-page-grid {
+    grid-template-columns: 1fr;
+  }
+
   .case-media img {
     min-height: 280px;
     max-height: 440px;
@@ -816,14 +1011,26 @@ a {
   }
 
   .section,
-  .contact-section {
+  .contact-section,
+  .case-page-section {
     padding: 64px 20px;
+  }
+
+  .case-hero {
+    padding: 58px 20px 52px;
   }
 
   .section-head h2,
   .profile-copy h2,
-  .contact-inner h2 {
+  .contact-inner h2,
+  .case-hero-copy h1 {
     font-size: 27px;
+  }
+
+  .case-page-main h2,
+  .case-sample h2,
+  .case-page-aside h2 {
+    font-size: 24px;
   }
 
   .service-card h3,
@@ -844,6 +1051,15 @@ a {
   .profile-table div {
     grid-template-columns: 1fr;
     gap: 6px;
+  }
+
+  .deliverable-grid,
+  .question-list {
+    grid-template-columns: 1fr;
+  }
+
+  .sample-block {
+    padding: 18px;
   }
 
   .site-footer {
